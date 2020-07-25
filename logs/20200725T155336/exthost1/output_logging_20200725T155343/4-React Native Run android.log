@@ -1,0 +1,246 @@
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+03:53:54 V/ddms: execute: running am get-config
+03:53:54 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+03:53:54 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+03:53:54 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+03:53:54 D/Device: Uploading file onto device 'emulator-5554'
+03:53:54 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/React Native/Template-ReactNative-Project-Structure/android/app/build/outputs/apk/debug/app-debug.apk as: rwxrwxrwx
+03:53:54 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+03:53:55 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:53:55 V/ddms: execute: returning
+03:53:55 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+03:53:55 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:53:55 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+27 actionable tasks: 2 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+03:55:08 V/ddms: execute: running am get-config
+03:55:08 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+03:55:08 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+03:55:08 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+03:55:08 D/Device: Uploading file onto device 'emulator-5554'
+03:55:08 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/React Native/Template-ReactNative-Project-Structure/android/app/build/outputs/apk/debug/app-debug.apk as: rwxrwxrwx
+03:55:08 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+03:55:09 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:55:09 V/ddms: execute: returning
+03:55:09 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+03:55:09 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:55:09 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+27 actionable tasks: 2 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+03:56:31 V/ddms: execute: running am get-config
+03:56:31 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+03:56:31 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+03:56:31 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+03:56:31 D/Device: Uploading file onto device 'emulator-5554'
+03:56:31 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/React Native/Template-ReactNative-Project-Structure/android/app/build/outputs/apk/debug/app-debug.apk as: rwxrwxrwx
+03:56:31 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+03:56:32 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:56:32 V/ddms: execute: returning
+03:56:32 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+03:56:33 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+03:56:33 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+27 actionable tasks: 2 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
